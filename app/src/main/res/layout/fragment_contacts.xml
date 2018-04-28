@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    tools:context=".Contacts"
+    android:background="@drawable/offiback"
+    android:layout_gravity="center"
+    >
+
+
+
+
+</RelativeLayout>

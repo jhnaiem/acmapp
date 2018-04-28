@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--&gt;-->
+            <!--<com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager-->
+                <!--android:id="@+id/horizontal_cycle"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--app:icvp_interpolator="@android:anim/accelerate_decelerate_interpolator"-->
+                <!--app:icvp_scroll_duration="250"-->
+                <!--app:icvp_center_page_scale_offset="30dp"-->
+                <!--app:icvp_min_page_scale_offset="5dp"-->
+                <!--app:icvp_max_page_scale="0.8"-->
+                <!--app:icvp_min_page_scale="0.55"-->
+                <!--app:icvp_medium_scaled="false"-->
+                <!--android:visibility="gone"-->
+                <!--/>-->
+
+        <!--</RelativeLayout>-->
+<!---->
+        <RelativeLayout
+            android:id="@+id/noticeitem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+
+            <TextView
+
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:background="#2a7284"
+                android:layout_centerHorizontal="true"
+                android:text="Notice" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Event_list_view"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                >
+
+
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+    </LinearLayout>

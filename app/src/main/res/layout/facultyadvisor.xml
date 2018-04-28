@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    tools:context=".Contacts"
+    android:background="@drawable/offiback"
+    android:layout_gravity="center"
+    android:id="@+id/facad"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/profileszz" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:text=" Dr. Shazzad Hosain\n Associate Professor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:text="  PhD in Computer Science from\nWayne State University, USA
+  shazzad.hosain@northsouth.edu" />
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>
